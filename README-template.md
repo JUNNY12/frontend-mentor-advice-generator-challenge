@@ -59,7 +59,5 @@ I would love to work more on manipulating thegit DOM
 
 
 ## Author
-
-- Website - [Juwon Emmanuel](https://www.your-site.com)
 - Frontend Mentor - [@JUNNY12](https://www.frontendmentor.io/profile/JUNNY12)
 - Twitter - [@juwonemmanuel6](https://www.twitter.com/juwonemmanuel6)
