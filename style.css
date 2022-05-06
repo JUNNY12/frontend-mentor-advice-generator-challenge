@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+}
+
+.attribution {
+     font-size: 11px;
+      text-align: center;
+      margin-top: 4rem;
+     }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body{
+    background: hsl(217, 19%, 24%);
+    padding: 1.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: calc(100vh - 0.2px);
+
+}
+
+
+
+.adviceText{
+    font-size: 28px;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    letter-spacing: 0.2rem;
+}
+
+.container{
+    padding:2rem;
+    background: hsl(217, 19%, 38%) ;
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+    color:hsl(193, 38%, 86%) ;
+}
+
+.adviceId{
+    color: hsl(150, 100%, 66%);
+    margin-bottom: 0.8rem;
+    font-size: 0.825rem;
+}
+
+
+
+.container picture img {
+    position: relative;
+    margin-bottom: 1rem;
+  }
+
+.container picture::before {
+    content: "";
+    width: 40%;
+    height: 1px;
+    background-color: hsl(193, 38%, 86%);
+    right: 1.25rem;
+    bottom: 4rem;
+    position: absolute;
+    display: block;
+    z-index: 99;
+  }
+  
+  .container picture::after {
+    content: "";
+    width: 45%;
+    height: 1px;
+    background-color: hsl(193, 38%, 86%);
+    left: 0;
+    bottom:2rem;
+    position: relative;
+    display: block;
+  }
+
+
+  
+
+.diceContainer{
+    height: 4rem;
+    width: 4rem;
+    background:hsl(150, 100%, 66%) ;
+    border-radius: 50%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+.diceContainer:hover{
+    box-shadow:0px 0px 25px 2px hsl(193, 38%, 86%);
+}
+
+
+
+@media screen  and (min-width:375px){
+    .container{
+        max-width: 480px;
+    }
+}
